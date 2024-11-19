@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
     {  
         printf("%s", "Incorrect usage. You provided ");
         printf("%d", (argc - 1));
-        printf("%s", " arguments. the correct number of arguments is 2\n");
+        printf("%s", " arguments. The correct number of arguments is 2\n");
 
         return 1;
     }
