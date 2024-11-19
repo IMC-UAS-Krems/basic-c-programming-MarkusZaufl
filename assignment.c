@@ -46,11 +46,6 @@ int main(int argc, char *argv[]) {
         lengths[i - 1] = arg;
     }
 
-    printf("%s", "Rows: ");
-    printf("%d\n", lengths[0]);
-    printf("%s", "columns: ");
-    printf("%d\n", lengths[1]);
-
     int** matrix;
     matrix = (int**) malloc(lengths[0]*sizeof(int*));
     for (int i = 0; i < lengths[0]; i++)
