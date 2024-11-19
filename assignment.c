@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
     int maxrand = 100;
 
     // WRITE YOUR CODE HERE
-    if(argc > 3 || argc <= 1) 
+    if(argc > 3 || argc <= 2) 
     {  
         printf("%s", "Incorrect usage. You provided ");
         printf("%d", (argc - 1));
