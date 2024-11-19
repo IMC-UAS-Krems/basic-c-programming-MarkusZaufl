@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
     {
         if (strlen(argv[i]) == 0) 
         {
-            printf("an argument is empty\n");
+            printf("Incorrect usage. The parameters you provided are not positive integers\n");
             return 1; // empty string
         }
 
